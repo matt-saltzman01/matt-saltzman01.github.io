@@ -47,25 +47,18 @@
                         </center>
                         <br>
                         <br>
-                        <a href="http://www.facebook.com" class="btn btn-default btn-lg active black-background" role="button" id="theLink">
+                        <a href="http://play.google.com/store/apps/details?id=com.google.android.apps.maps" class="btn btn-default btn-lg active black-background" role="button" id="theLink">
                             <span style="font-family:Helvetica;">
                                 Connect Now
                             </span>
                         </a>
                         <script type="text/javascript">
-
-                            function set_url(id, url) {
-                                document.getElementById(id).href = url; 
-                            }
-
                             var ua = navigator.userAgent;
-                            document.write("BB OS Version :: " + ua);
                             if (ua.indexOf("iPhone") >= 0) {
                                 document.getElementById("theLink").href = "http://www.google.com"
                             } else {
                                 document.getElementById("theLink").href = "http://play.google.com/store/apps/details?id=com.google.android.apps.maps"
                             }
-                        }
                         </script>
                     </div>
                 </div>
