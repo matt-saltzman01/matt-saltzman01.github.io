@@ -220,10 +220,15 @@
 
                 <!-- Main jumbotron for a primary marketing message or call to action -->
                 <div class="jumbotron">
-                    <h1>Hello, world!</h1>
-                    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                    <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
-                    </p>
+                    <section>
+                        <div id="messages"></div>
+                    <input id="chat-input" type="text" placeholder="say anything" autofocus/>
+                    </section>
+
+                    <script src="//media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+                    <script src="//media.twiliocdn.com/sdk/js/ip-messaging/v0.10/twilio-ip-messaging.min.js"></script>
+                    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                    <script src="index.js"></script>
                 </div>
 
                 <div class="page-header">
